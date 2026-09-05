@@ -65,7 +65,7 @@ This keeps each file small and focused, and makes the codebase easy to explain a
 
 ```bash
 # Clone the repository
-git clone https://github.com/Akhilreddy-GIT/<repo-name>.git
+git clone https://github.com/Akhilreddy-GIT/codsoft-todo-backend-fastapi.git
 cd todo_backend
 
 # Create a virtual environment
