@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite database (don't commit real data to Git)
+todo.db
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
