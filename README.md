@@ -10,8 +10,8 @@ This project was built as part of my CodSoft Backend Development Internship (Tas
 
 - Full CRUD for tasks (Create, Read, Update, Delete)
 - Mark tasks as completed or pending
-- Filter tasks by completion status (`?completed=true` / `?completed=false`)
-- Search tasks by title (`?search=keyword`)
+- Filter tasks by completion status (`completed=true` / `completed=false`)
+- Search tasks by title (`search=keyword`)
 - Bonus fields: priority level (low/medium/high), category, due date
 - Automatic request validation with clear error messages
 - Proper HTTP status codes for every response
@@ -100,7 +100,7 @@ The SQLite database file (`todo.db`) and its `tasks` table are created automatic
 | Method | Endpoint | Description |
 |---|---|---|
 | `POST` | `/tasks` | Create a new task |
-| `GET` | `/tasks` | Get all tasks (supports `?completed=` and `?search=`) |
+| `GET` | `/tasks` | Get all tasks (supports `completed=` and `search=`) |
 | `GET` | `/tasks/{task_id}` | Get a single task by ID |
 | `PUT` | `/tasks/{task_id}` | Update a task (partial updates supported) |
 | `DELETE` | `/tasks/{task_id}` | Delete a task |
